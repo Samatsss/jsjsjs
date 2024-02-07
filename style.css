@@ -1,0 +1,78 @@
+/*.example {*/
+/*    position: absolute;*/
+/*    top: 50px;*/
+/*    left: 200px;*/
+/*    width: 300px;*/
+/*    height: 200px;*/
+/*    border: 25px solid #ca3425;*/
+/*    padding: 20px;*/
+/*    overflow: auto;*/
+/*}*/
+
+/*.container {*/
+/*    margin-top: 30px;*/
+/*    position: relative;*/
+/*    border: 2px solid #f48624;*/
+/*}*/
+
+/*.block {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*.item {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: #842628;*/
+/*}*/
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card{
+    max-width: 300px;
+    padding: 15px;
+    border: 1px solid #143156;
+    border-radius: 4px;
+    color: #873285;
+    background-color: #623845;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.new{
+    background-color: #635718;
+}
+
+.field{
+    position: relative;
+    background-color: #145124;
+    border: 10px solid black;
+    width: 1200px;
+    height: 800px;
+}
+
+.ball{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background: url("./ball.png") no-repeat center center/ cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
